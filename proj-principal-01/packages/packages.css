@@ -1,0 +1,61 @@
+main {
+    padding-top: 32px;
+}
+
+.plan {
+    margin-top: 15px;
+    border: green 3px solid;
+    background: #ccffcc;
+    width: 70%;
+    padding: 30px;
+    color: black;
+}
+
+.plan:hover {
+    border: rgb(206, 86, 17) 3px solid;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.plan a,
+.plan a:hover,
+.plan a:active {
+    text-decoration: none;
+}
+
+.plan a {
+    display: block;
+}
+
+.plan__overview {
+    color: inherit;
+}
+
+.plan-premium {
+    background: #1b661b;
+}
+
+.plan-premium .plan__overview {
+    color: white;
+}
+
+.plan__short-description {
+    color: #aaaaaa;
+    /* text-shadow: 1px 1px 1px #dddddd; */
+    
+}
+
+.plan__description {
+    background: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    font-weight: 200;
+}
+
+#free {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
